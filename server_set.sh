@@ -27,6 +27,7 @@ function setting_zsh {
     git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
     mkdir ~/.oh-my-zsh/custom/plugins
     git clone git://github.com/zsh-users/zsh-syntax-highlighting.git  ~/.oh-my-zsh/custom/plugins
+    rm ~/.zshrc
     cat > ~/.zshrc
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
